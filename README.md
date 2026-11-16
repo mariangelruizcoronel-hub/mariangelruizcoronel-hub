@@ -1,7 +1,7 @@
 # Hi, I'm Mariangel 👋
 
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjN1MHR4bGwxajl5N2s3bHdpeXA1OXZ6cWloNW1qNDJwY3luMHV2dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6fJ5z2bgCLBshZUA/giphy.gif" alt="QA GIF" width="480" />
+  <img src="./qa-terminal.svg" alt="Terminal QA: bug detectado y calidad aprobada / QA terminal: bug detected and quality approved" width="640">
 </p>
 
 ---
