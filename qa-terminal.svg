@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-label="Terminal QA: tests ejecutándose, bug detectado y calidad aprobada / QA terminal: tests running, bug detected and quality approved">
+  <style>
+    .t{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace;font-size:15px;fill:#cfc9bd}
+    .dim{fill:#7d776e}.ok{fill:#7ee787}.bug{fill:#ff7b72}.warn{fill:#e3b341}.hl{fill:#79c0ff}.w{font-weight:700}
+    .l{opacity:0}
+    @keyframes a0_0{0%,0.00%{opacity:0}0.60%,94%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a0_8{0%,5.00%{opacity:0}5.60%,94%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a1_6{0%,10.00%{opacity:0}10.60%,94%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a2_4{0%,15.00%{opacity:0}15.60%,94%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a3_2{0%,20.00%{opacity:0}20.60%,94%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a4_2{0%,26.25%{opacity:0}26.85%,94%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a5_0{0%,31.25%{opacity:0}31.85%,94%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a6_2{0%,38.75%{opacity:0}39.35%,94%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a7_2{0%,45.00%{opacity:0}45.60%,94%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a8_4{0%,52.50%{opacity:0}53.10%,94%{opacity:1}97%,100%{opacity:0}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .bar{animation:fill 16s linear infinite}
+    @keyframes fill{0%,40%{width:0}50%,94%{width:300px}97%,100%{width:0}}
+  </style>
+  <rect width="720" height="400" rx="14" fill="#0d1117"/>
+  <rect width="720" height="38" rx="14" fill="#161b22"/>
+  <rect y="24" width="720" height="14" fill="#161b22"/>
+  <circle cx="22" cy="19" r="6" fill="#ff5f57"/><circle cx="42" cy="19" r="6" fill="#febc2e"/><circle cx="62" cy="19" r="6" fill="#28c840"/>
+  <text x="360" y="24" text-anchor="middle" class="t dim" style="font-size:13px">mariangel@qa ~ npx playwright test</text>
+
+  <g class="t" xml:space="preserve">
+    <text x="24" y="72" class="l" style="animation:a0_0 16s linear infinite"><tspan class="ok">❯</tspan> npx playwright test <tspan class="dim">--project=e2e</tspan></text>
+    <text x="24" y="102" class="l dim" style="animation:a0_8 16s linear infinite">Ejecutando 35 tests · Running 35 tests…</text>
+    <text x="24" y="132" class="l" style="animation:a1_6 16s linear infinite"><tspan class="ok">  ✓</tspan> Reserva válida · Valid booking <tspan class="dim">(1.2s)</tspan></text>
+    <text x="24" y="158" class="l" style="animation:a2_4 16s linear infinite"><tspan class="ok">  ✓</tspan> API POST /booking 201 <tspan class="dim">(84ms)</tspan></text>
+    <text x="24" y="184" class="l" style="animation:a3_2 16s linear infinite"><tspan class="bug">  ✗</tspan> GET /reservation/{id} → <tspan class="bug">500</tspan></text>
+    <text x="24" y="216" class="l" style="animation:a4_2 16s linear infinite"><tspan class="bug w">🐞 BUG DETECTADO</tspan><tspan class="dim"> · </tspan><tspan class="bug w">BUG DETECTED</tspan></text>
+    <text x="24" y="242" class="l warn" style="animation:a5_0 16s linear infinite">   → Jira BK-25 creado · ticket created ✔</text>
+    <text x="24" y="274" class="l" style="animation:a6_2 16s linear infinite"><tspan class="ok">❯</tspan> re-test <tspan class="dim">después del fix · after the fix</tspan></text>
+    <text x="24" y="300" class="l" style="animation:a7_2 16s linear infinite"><tspan class="ok">  ✓ 35 passed</tspan> <tspan class="dim">· 0 failed · 1.5 min</tspan></text>
+    <text x="24" y="340" class="l" style="animation:a8_4 16s linear infinite"><tspan class="ok w">✅ CALIDAD DE SOFTWARE APROBADA</tspan></text>
+    <text x="24" y="366" class="l" style="animation:a8_4 16s linear infinite"><tspan class="hl w">   SOFTWARE QUALITY APPROVED</tspan> <tspan class="dim">· GO 🚀</tspan><tspan class="ok cur"> █</tspan></text>
+  </g>
+  <rect x="396" y="290" width="300" height="8" rx="4" fill="#21262d" class="l" style="animation:a6_2 16s linear infinite"/>
+  <rect x="396" y="290" height="8" rx="4" fill="#7ee787" class="bar" style="width:0"/>
+</svg>
